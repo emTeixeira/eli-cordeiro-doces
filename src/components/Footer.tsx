@@ -50,7 +50,15 @@ const Footer = () => {
             </button>
           </TermsDialog>
           <p className="text-primary-foreground/40 text-xs">
-            © 2026 Eli Cordeiro Doces. · Todos os direitos reservados. · Desenvolvido por Emanuel Teixeira
+            © 2026 Eli Cordeiro Doces. · Todos os direitos reservados. · Desenvolvido por{" "}
+            <a
+              href="https://emanuel-site.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2 hover:text-primary-foreground transition-colors"
+            >
+              Emanuel Teixeira
+            </a>
           </p>
         </div>
       </div>
