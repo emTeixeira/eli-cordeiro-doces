@@ -6,10 +6,11 @@ const menuCategories = [
     category: "Tortas & Bolos",
     emoji: "🍰",
     items: [
-      { name: "Torta Cookie com Nutella", desc: "Crocante e irresistível", price: "R$ 140,00" },
-      { name: "Torta de Limão Trufado", desc: "Cremosa e refrescante", price: "R$ 10,00 pote" },
-      { name: "Bolo de Cenoura com Chocolate", desc: "Clássico e delicioso", price: "R$ 10,00 pote" },
-      { name: "Banoffee", desc: "Banana, doce de leite e chantilly", price: "R$ 10,00 pote" },
+      { name: "Torta Cookie com Nutella", desc: "Crocante e irresistível", price: "R$ 16,00 - Fatia" },
+      { name: "Torta de Limão Trufado", desc: "Cremosa e refrescante", price: "R$ 15,00 - Fatia" },
+      { name: "Bolo de Cenoura com Chocolate", desc: "Clássico e delicioso", price: "R$ 14,00 - Fatia" },
+      { name: "Bolo de Gelado de Limão", desc: "Refrescante e irresistível", price: "R$ 14,00 - Fatia" },
+      { name: "Banoffee", desc: "Banana, doce de leite e chantilly", price: "R$ 15,00 - Fatia" },
     ],
   },
   {
@@ -18,9 +19,8 @@ const menuCategories = [
     items: [
       { name: "Bombom de Travessa 1L", desc: "Camadas de chocolate e creme", price: "R$ 75,00" },
       { name: "Bombom de Travessa 2L", desc: "Para toda a família", price: "R$ 140,00" },
-      { name: "Bombom no Pote", desc: "Ninho, chocolate e chantilly", price: "R$ 10,00 pote" },
-      { name: "Pavê de Leite Ninho (4 pessoas)", desc: "Cremoso e irresistível", price: "R$ 50,00" },
-      { name: "Pavê de Leite Ninho (10 pessoas)", desc: "Para festas e reuniões", price: "R$ 80,00" },
+      { name: "Bombom no Pote", desc: "Ninho, chocolate e chantilly (Com morango ou uva)", price: "R$ 15,00 - Pote" },
+      { name: "Pavê de Leite Ninho", desc: "Cremoso e irresistível", price: "R$ 15,00 - Pote" },
     ],
   },
   {
