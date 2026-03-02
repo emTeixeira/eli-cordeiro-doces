@@ -32,7 +32,7 @@ const Footer = () => {
               <Instagram className="w-5 h-5" />
             </a>
             <a
-              href="https://wa.me/5521996979718?text=Ola%21%20Gostaria%20de%20fazer%20um%20pedido%20ou%20receber%20mais%20informacoes%20sobre%20os%20doces."
+              href="https://wa.me/5521996979718?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20um%20pedido%20ou%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20doces."
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"

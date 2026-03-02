@@ -95,7 +95,7 @@ const MenuSection = () => {
             * Tamanhos grandes têm valor a combinar. Entre em contato!
           </p>
           <a
-            href="https://wa.me/5521996979718?text=Ola%21%20Gostaria%20de%20fazer%20um%20pedido%20ou%20receber%20mais%20informacoes%20sobre%20os%20doces."
+            href="https://wa.me/5521996979718?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20um%20pedido%20ou%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20doces.."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-medium hover:opacity-90 transition-opacity text-lg"
