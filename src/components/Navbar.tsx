@@ -95,19 +95,23 @@ const Navbar = () => {
           >
             <div className="px-4 py-6 flex flex-col gap-4">
               {navLinks.map((link) => (
-                <a
+                <button
                   key={link.href}
-                  href={link.href}
-                  onClick={() => setMobileOpen(false)}
-                  className="text-foreground text-lg font-display py-2 border-b border-border/50"
+                  onClick={() => {
+                    setMobileOpen(false);
+                    setTimeout(() => {
+                      const id = link.href.replace("#", "");
+                      document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+                    }, 300);
+                  }}
+                  className="text-foreground text-lg font-display py-2 border-b border-border/50 text-left"
                 >
                   {link.label}
-                </a>
+                </button>
               ))}
               <AboutMeDialog>
                 <button
-                  onClick={() => setMobileOpen(false)}
-                  className="text-foreground text-lg font-display py-2 border-b border-border/50 text-left"
+                  className="text-foreground text-lg font-display py-2 border-b border-border/50 text-left w-full"
                 >
                   Sobre Mim
                 </button>

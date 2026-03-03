@@ -13,13 +13,13 @@ const AboutMeDialog = ({ children }: AboutMeDialogProps) => {
     <Dialog>
       <DialogTrigger asChild>{children}</DialogTrigger>
       <DialogContent className="max-w-2xl p-0 overflow-hidden bg-background border-border">
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row max-h-[90vh] overflow-y-auto">
           {/* Photo */}
-          <div className="md:w-1/2 h-64 md:h-auto">
+          <div className="md:w-1/2 shrink-0">
             <img
               src={eliPhoto}
               alt="Eli Cordeiro"
-              className="w-full h-full object-cover"
+              className="w-full h-auto md:h-full md:object-cover"
             />
           </div>
 
